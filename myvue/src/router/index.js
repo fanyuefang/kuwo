@@ -10,6 +10,7 @@ import SingerPage from '../Pages/SingerPage'
 import ShopPage from '../pages/ShopPage'
 import LoginPage from '../pages/LoginPage'
 import RegisterPage from '../pages/RegisterPage'
+import aaaaa from  "../pages/aaaaa"
 
 Vue.use(Router)
 
@@ -17,7 +18,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: HomePage
+      component: aaaaa
     },
     {
       path: '/load',
